@@ -16,6 +16,9 @@ a {
   color: #212832;
   font-size: 17px;
 }
+/* .main {
+  background: url(../images/Decore.svg);
+} */
 /* Header section styles */
 .header__wrapper {
   margin: 20px 0;
@@ -31,6 +34,7 @@ a {
 }
 .header__button {
   display: flex;
+  align-items: center;
   gap: 30px;
 }
 .header__btn {
@@ -38,4 +42,41 @@ a {
   background: none;
   border-radius: 3px;
   border: 1px solid #212832;
+}
+.eng__btn {
+  display: flex;
+  align-items: center;
+  gap: 5px;
+}
+.eng > img {
+  padding-bottom: 4px;
+}
+/* Home section styels */
+.home__wrapper {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 112px;
+}
+.home__subtitle {
+  font-weight: 700;
+  color: #df6951;
+  font-size: 20px;
+}
+.home__title {
+  font-size: 84px;
+}
+.home__p {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+.h__btn {
+  padding: 14px 32px;
+  color: #fff;
+  background: #f1a501;
+  border-radius: 10px;
+  border: none;
+  font-size: 18px;
 }
