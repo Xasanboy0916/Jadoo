@@ -1,3 +1,4 @@
+@import url("https://fonts.googleapis.com/css2?family=Noto+Sans:ital,wght@0,100..900;1,100..900&family=Volkhov:ital,wght@0,400;0,700;1,400;1,700&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Noto+Sans:ital,wght@0,100..900;1,100..900&display=swap");
 /* Core styles */
 * {
@@ -17,7 +18,9 @@ a {
   font-size: 17px;
 }
 /* .main {
-  background: url(../images/Decore.svg);
+  padding: 0;
+  margin: 0;
+  background-image: url(../images/Decore.svg);
 } */
 /* Header section styles */
 .header__wrapper {
@@ -64,15 +67,28 @@ a {
   font-size: 20px;
 }
 .home__title {
-  font-size: 84px;
+  font-size: 72px;
+  font-family: "Volkhov", serif;
+  font-weight: 700;
+  color: #181e4b;
+  line-height: 89px;
+  letter-spacing: -4%;
+}
+.home__des {
+  width: 400px;
+  color: #5e6282;
+  line-height: 30px;
 }
 .home__p {
   display: flex;
   align-items: center;
   gap: 10px;
 }
-
+.play__button--text {
+  padding-top: 20px;
+}
 .h__btn {
+  margin: 30px 0;
   padding: 14px 32px;
   color: #fff;
   background: #f1a501;
