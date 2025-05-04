@@ -28,6 +28,7 @@ a {
   font-family: "Volkhov", serif;
   font-weight: 700;
 }
+
 /* .main {
   position: relative;
   left: 100px;
@@ -268,24 +269,20 @@ a {
   width: 16.25px;
   height: 16.25px;
 }
+.card-img {
+  width: 314px;
+  height: 457px;
+}
 /* Dekorativ fon rasmi */
-
-/* .card:nth-child(1)::after {
-  background-image: url(../images/destinations.svg);
+.card-element > i {
+  width: 314px;
+  height: 457px;
 }
-
-.card:nth-child(2)::after {
-  background-image: url(../images/destinations1.svg);
-}
-
-.card:nth-child(3)::after {
-  background-image: url(../images/destinations2.svg);
-} */
-
 .card img {
+  padding-top: 0px;
   width: 100%;
   height: 327px;
-  object-fit: cover;
+
   position: relative;
   z-index: 1;
 }
