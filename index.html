@@ -1,6 +1,13 @@
 <!DOCTYPE html>
 <html len="en">
   <head>
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css"
+      integrity="sha512-Evv84Mr4kqVGRNSgIGL/F/aIDqQb7xQ2vcrdIwxfjThSH8CSR7PBEakCr51Ck+w+/U6swU2Im1vVX0SVk9ABhg=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
     <link rel="shortcut icon" href="./images/Logo.png" type="image/x-icon" />
     <title>Jadoo | home page</title>
     <link rel="stylesheet" href="./css/main.css" />
@@ -64,68 +71,94 @@
       </section>
     </main>
     <!-- Home section ends -->
-    <!-- Category section started -->
-    <section class="category">
+    <!-- Service section started -->
+    <section class="services-section">
       <div class="container">
-        <div class="category__wrapper">
-          <div class="category__top">
-            <h3 class="category__subtitle section__subtitle">CATEGORY</h3>
-            <h2 class="category__title section__title">
-              We Offer Best Services
-            </h2>
+        <p class="section-tag">CATEGORY</p>
+        <h2 class="section-title">We Offer Best Services</h2>
+        <div class="cards">
+          <div class="service-card">
+            <img src="weather-icon.png" alt="Weather icon" />
+            <h3>Calculated Weather</h3>
+            <p>Built Wicket longer admire do barton vanity itself do in it.</p>
           </div>
-          <div class="category__bottom">
-            <div class="category__card">
-              <div class="category__cards">
-                <img
-                  class="category__cards--img"
-                  src="./images/cardimg1.png"
-                  alt="Group 1"
-                />
-                <h3 class="category__cards--title">Calculated Weather</h3>
-                <p class="category__cards--des">
-                  Built Wicket longer admire do barton vanity itself do in it.
-                </p>
+
+          <div class="service-card active">
+            <img src="flight-icon.png" alt="Flight icon" />
+            <h3>Best Flights</h3>
+            <p>Engrossed listening. Park gate sell they west hard for the.</p>
+          </div>
+
+          <div class="service-card">
+            <img src="events-icon.png" alt="Events icon" />
+            <h3>Local Events</h3>
+            <p>
+              Barton vanity itself do in it. Prefer to men it engrossed
+              listening.
+            </p>
+          </div>
+
+          <div class="service-card">
+            <img src="custom-icon.png" alt="Customization icon" />
+            <h3>Customization</h3>
+            <p>
+              We deliver outsourced aviation services for military customers
+            </p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Service section ends -->
+    <!-- Destinations section started -->
+    <section class="destinations">
+      <div class="container">
+        <div class="destinations__top">
+          <h3 class="destinations__subtitle section__subtitle">Top Selling</h3>
+          <h2 class="destinations__title section__title">Top Destinations</h2>
+        </div>
+        <div class="cards">
+          <div class="card">
+            <img src="./images/destinations.svg" alt="Rome" />
+            <div class="card-content">
+              <div class="card-header">
+                <span class="card-header-text">Rome, Italy</span>
+                <span class="card-header-text">$5.42k</span>
               </div>
-              <div class="category__cards">
-                <img
-                  class="category__cards--img"
-                  src="./images/images.png"
-                  alt="Group 2"
-                />
-                <h3 class="category__cards--title">Best Flights</h3>
-                <p class="category__cards--des">
-                  Engrossed listening. Park gate sell they west hard for the.
-                </p>
+              <p class="card-header-des">
+                <i class="fa-solid fa-paper-plane"></i>10 Days Trip
+              </p>
+            </div>
+          </div>
+
+          <div class="card">
+            <img src="./images/destinations1.svg" alt="London" />
+            <div class="card-content">
+              <div class="card-header">
+                <span class="card-header-text">London, UK</span>
+                <span class="card-header-text">$4.2k</span>
               </div>
-              <div class="category__cards">
-                <img
-                  class="category__cards--img"
-                  src="./images/cardimg3.png"
-                  alt="Group 3"
-                />
-                <h3 class="category__cards--title">Local Events</h3>
-                <p class="category__cards--des">
-                  Barton vanity itself do in it. Preferd to men it engrossed
-                  listening.
-                </p>
+              <p class="card-header-des">
+                <i class="fa-solid fa-paper-plane"></i>12 Days Trip
+              </p>
+            </div>
+          </div>
+
+          <div class="card">
+            <img src="./images/destinations2.svg" alt="Europe" />
+            <div class="card-content">
+              <div class="card-header">
+                <span class="card-header-text">Full Europe</span>
+                <span class="card-header-text">$15k</span>
               </div>
-              <div class="category__cards">
-                <img
-                  class="category__cards--img"
-                  src="./images/cardimg2.png"
-                  alt="Group 4"
-                />
-                <h3 class="category__cards--title">Customization</h3>
-                <p class="category__cards--des">
-                  We deliver outsourced aviation services for military customers
-                </p>
-              </div>
+              <p class="card-header-des">
+                <i class="fa-solid fa-paper-plane"></i> 28 Days Trip
+              </p>
             </div>
           </div>
         </div>
       </div>
     </section>
-    <!-- Category section ends -->
+    <!-- Destinations section ends -->
   </body>
 </html>

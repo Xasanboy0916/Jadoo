@@ -20,10 +20,11 @@ a {
 .section__subtitle {
   font-size: 18px;
   color: #5e6282;
+  font-family: "Poppins", sans-serif;
 }
 .section__title {
   font-size: 50px;
-  color: #181e4b;
+  color: #14183e;
   font-family: "Volkhov", serif;
   font-weight: 700;
 }
@@ -121,53 +122,179 @@ a {
   align-items: center;
   gap: 20px;
 }
-/* Category section ends */
-.category__top {
-  text-align: center;
-}
-.categiry__bottom {
-  padding: 20px 0;
-}
-.category__card {
-  padding: 20px 0;
-  display: flex;
-  justify-content: space-between;
-  width: calc((1240px - 10) / 4);
-}
-.category__cards {
-  width: 190px;
-  height: 227px;
-  text-align: center;
+/* Service section ends */
+.services-section {
+  padding: 80px 0;
   background-color: #fff;
-  border-radius: 36px;
-  border: none;
-  width: 100px;
-  transition: transform 0.3s ease;
+  text-align: center;
+}
+
+.section-tag {
+  color: #6c6c6c;
+  font-size: 14px;
+  font-weight: 600;
+  margin-bottom: 10px;
+}
+
+.section-title {
+  font-size: 36px;
+  font-weight: 700;
+  margin-bottom: 50px;
+  color: #1e1e2a;
+  font-family: "poppins", sans-serif;
+}
+
+.cards {
+  display: flex;
+  gap: 24px;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.service-card {
+  background: #ffffff;
+  padding: 30px 20px;
+  width: 250px;
+  border-radius: 16px;
+  text-align: center;
+  box-shadow: 0 0 0 transparent;
+  transition: all 0.3s ease;
   position: relative;
   z-index: 1;
 }
-.category__cards:hover {
-  width: 267px;
-  height: 314px;
-  transform: scale(1.1);
-  background-color: #f7f7f7;
-  box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
+
+.service-card img {
+  width: 50px;
+  height: 50px;
+  margin-bottom: 20px;
 }
-.categiry__card > img {
-  width: 112px;
-  height: 102px;
+
+.service-card h3 {
+  font-size: 18px;
+  font-weight: 700;
+  margin-bottom: 10px;
+  color: #1e1e2a;
 }
-.category__cards--img {
-  width: 92px;
-  height: 78px;
+
+.service-card p {
+  font-size: 14px;
+  color: #6c6c6c;
 }
-.category__cards--title {
-  width: 190px;
-  padding: 10px;
-  font-size: 18;
-  color: #1e1d4c;
+
+.service-card {
+  background: #ffffff;
+  padding: 30px 20px;
+  width: 250px;
+  border-radius: 16px;
+  text-align: center;
+  box-shadow: none;
+  transition: all 0.3s ease;
+  position: relative;
+  z-index: 1;
 }
-.category__cards--des {
-  width: 181px;
+
+.service-card:hover {
+  background-color: #ffffff;
+  box-shadow: 0 20px 40px rgba(0, 0, 0, 0.1);
+  transform: translateY(-10px);
+  border-radius: 20px;
+  z-index: 2;
+}
+/* Destinations section styles */
+.destinations__top {
+  text-align: center;
+}
+.destinations__subtitle {
+  font-size: 18px;
   color: #5e6282;
+}
+.destinations__title {
+  font-size: 50px;
+  font-family: "Volkhov", serif;
+  color: #14183e;
+}
+.section-header {
+  font-size: 16px;
+  color: #888;
+  font-weight: 600;
+}
+.card-header {
+  padding: 20px;
+  display: flex;
+  justify-content: space-between;
+}
+.card-header-des {
+  padding: 0 25px;
+  font-size: 14px;
+  color: #5e6282;
+}
+.card-header-des > i {
+  color: #000;
+  padding-right: 10px;
+}
+.card-header-text {
+  color: #5e6282;
+  font-size: 16px;
+}
+.section-header {
+  display: flex;
+  justify-content: space-between;
+  font-size: 2.5rem;
+  margin-bottom: 2rem;
+  font-weight: 800;
+}
+
+.cards {
+  padding: 50px 0;
+  display: flex;
+  gap: 32px;
+}
+
+.card {
+  width: 314px;
+  height: 457px;
+  position: relative;
+  background: white;
+  border-radius: 20px;
+  box-shadow: 0 4px 20px rgba(0, 0, 0, 0.08);
+  overflow: hidden;
+  transition: transform 0.3s ease;
+}
+
+.card:hover {
+  transform: translateY(-5px);
+}
+.card > i {
+  width: 16.25px;
+  height: 16.25px;
+}
+/* Dekorativ fon rasmi */
+
+/* .card:nth-child(1)::after {
+  background-image: url(../images/destinations.svg);
+}
+
+.card:nth-child(2)::after {
+  background-image: url(../images/destinations1.svg);
+}
+
+.card:nth-child(3)::after {
+  background-image: url(../images/destinations2.svg);
+} */
+
+.card img {
+  width: 100%;
+  height: 327px;
+  object-fit: cover;
+  position: relative;
+  z-index: 1;
+}
+
+.card-content {
+  width: 315px;
+  height: 130px;
+  position: relative;
+  z-index: 2;
+  padding: 20px;
+  text-align: left;
 }
