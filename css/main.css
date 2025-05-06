@@ -165,9 +165,13 @@ a {
 }
 
 .service-card img {
-  width: 50px;
-  height: 50px;
+  width: 72px;
+  height: 60px;
   margin-bottom: 20px;
+}
+.card__image {
+  width: 90px;
+  height: 70px;
 }
 
 .service-card h3 {
@@ -205,93 +209,61 @@ a {
 .destinations__top {
   text-align: center;
 }
-.destinations__subtitle {
-  font-size: 18px;
-  color: #5e6282;
-}
-.destinations__title {
-  font-size: 50px;
-  font-family: "Volkhov", serif;
-  color: #14183e;
-}
-.section-header {
-  font-size: 16px;
-  color: #888;
-  font-weight: 600;
-}
-.card-header {
-  padding: 20px;
-  display: flex;
-  justify-content: space-between;
-}
-.card-header-des {
-  padding: 0 25px;
-  font-size: 14px;
-  color: #5e6282;
-}
-.card-header-des > i {
-  color: #000;
-  padding-right: 10px;
-}
-.card-header-text {
-  color: #5e6282;
-  font-size: 16px;
-}
-.section-header {
-  display: flex;
-  justify-content: space-between;
-  font-size: 2.5rem;
-  margin-bottom: 2rem;
-  font-weight: 800;
-}
-
 .cards {
-  padding: 50px 0;
   display: flex;
-  gap: 32px;
+  justify-content: space-between;
 }
-
 .card {
-  width: 314px;
-  height: 457px;
-  position: relative;
-  background: white;
-  border-radius: 20px;
-  box-shadow: 0 4px 20px rgba(0, 0, 0, 0.08);
-  overflow: hidden;
-  transition: transform 0.3s ease;
+  padding: 30px 0;
+  align-items: center;
+  border-radius: 26px;
+  transition: transform 0.3s linear;
 }
-
 .card:hover {
-  transform: translateY(-5px);
+  transform: rotateY(-5px);
 }
-.card > i {
+.cardd {
+  position: relative;
+  left: 380px;
+  bottom: 827px;
+}
+.card__content {
+  position: relative;
+  left: 80px;
+  bottom: 312px;
+  padding: 15px;
+  font-weight: 300;
+  width: 315px;
+  height: 130px;
+  background-color: #fff;
+  border-radius: 0 0 26px 26px;
+}
+.card__title {
+  display: flex;
+  justify-content: space-between;
+  color: #5e6282;
+  font-size: 18px;
+}
+.card__subtitle--des {
+  padding: 20px 10px;
+  color: #5e6282;
+  font-size: 16px;
+}
+.card__subtitle--des > i {
+  padding-right: 10px;
+  color: #5e6282;
   width: 16.25px;
   height: 16.25px;
 }
-.card-img {
-  width: 314px;
-  height: 457px;
+.card__subtitle--dess {
+  padding: 20px 10px;
+  color: #5e6282;
+  font-size: 16px;
+}
+.card__subtitle--dess > i {
+  padding-right: 10px;
+  color: #5e6282;
+  width: 16.25px;
+  height: 16.25px;
 }
 /* Dekorativ fon rasmi */
-.card-element > i {
-  width: 314px;
-  height: 457px;
-}
-.card img {
-  padding-top: 0px;
-  width: 100%;
-  height: 327px;
-
-  position: relative;
-  z-index: 1;
-}
-
-.card-content {
-  width: 315px;
-  height: 130px;
-  position: relative;
-  z-index: 2;
-  padding: 20px;
-  text-align: left;
-}
